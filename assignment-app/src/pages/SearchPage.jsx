@@ -94,6 +94,7 @@ function SearchPage({ searchState, setSearchState }) {
       setField("error", "Error retrieving data.");
       setField("results", []);
       setField("statusMessage", "");
+      resetMetrics();
     }
   };
 
